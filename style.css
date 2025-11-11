@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Navigation Bar */
+header {
+  background-color: #1b1b1b;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover, .active {
+  color: #f4b400;
+}
+
+/* Main Content */
+.container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.main-image {
+  width: 320px;
+  max-width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #1b1b1b;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #f4b400;
+  color: black;
+}
+
+/* Decorative Flowers */
+.flower {
+  position: absolute;
+  font-size: 3rem;
+  opacity: 0.2;
+}
+
+.flower-left {
+  bottom: 20px;
+  left: 20px;
+}
+
+.flower-right {
+  bottom: 20px;
+  right: 20px;
+}
